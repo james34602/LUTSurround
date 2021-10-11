@@ -4,7 +4,7 @@ As its name suggests, this is a real time stereo to multichannel upmix algorithm
 Processing speed is very fast, this is generally good for low power consumption device.
 
 ## What's upmix? And what's the motivation to deploy such technique?
-Upmix is a technique of surround sound generation that uses the correlation of stereo Left, Right channel.
+Upmix is a technique of surround sound generation that uses the correlation between stereo Left, Right channel.
 
 Most audio material in the world is mainly exist in Stereo format, it's de facto standard, as manufactorer see the advantage that Stereo recording encode spatial information good enough, entropy encoding stereo of the signal can be benefit by Stereo Mid/Side, Stereo also provide good quality of sound reproduction.
 
