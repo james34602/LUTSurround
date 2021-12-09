@@ -750,7 +750,6 @@ void LUTSurroundInit(LUTSurround *msr, float fs)
 		msr->fft = DFT4096;
 	else if (msr->fftLen == 8192)
 		msr->fft = DFT8192;
-	msr->minus_frameLen = msr->frameLen;
 	msr->ovpLen = msr->frameLen / ANALYSIS_OVERLAP;
 	msr->halfLen = (msr->fftLen >> 1) + 1;
 	msr->smpShift = (msr->frameLen - (msr->ovpLen << 1));

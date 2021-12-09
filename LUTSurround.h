@@ -19,7 +19,7 @@ typedef struct
 } SecondOrderCrossover;
 typedef struct lutUpmix
 {
-	unsigned int fftLen, minus_frameLen, frameLen, ovpLen, halfLen, smpShift, procUpTo;
+	unsigned int fftLen, frameLen, ovpLen, halfLen, smpShift, procUpTo;
 	void(*fft)(float*, const float*);
 	unsigned int mBitRev[FFTSIZE];
 	float 	mSineTab[FFTSIZE >> 1];
